@@ -3,4 +3,5 @@ project(myUtils)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(myUtils main.cpp)
+add_executable(myUtils main.cpp
+        integer/Integer.hpp)
